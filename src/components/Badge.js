@@ -19,7 +19,7 @@ export default class Badge extends Component {
                 </div>
                 <div className="Badge__section-info">
                     <h3>{jobTitle}</h3>
-                    <div>{twitter}</div>
+                    <div>{`@${twitter}`}</div>
                 </div>
                 <div className="Badge__footer">#PlatziConf</div>
             </div>
